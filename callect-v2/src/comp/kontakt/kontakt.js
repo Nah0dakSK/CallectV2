@@ -1,12 +1,13 @@
 import React from "react";
-import "./home.css";
+import "./kontakt.css";
 import Sidebar from "../sidebar/sideBar";
 
-export default function Home() {
+export default function Kontakt() {
     return(
         <>
-            <div className="hmp">
-                <Sidebar/> 
+            <Sidebar/>
+            <div className="pps">
+
             </div>
         </>
     )

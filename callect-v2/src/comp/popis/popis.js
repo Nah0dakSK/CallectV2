@@ -1,12 +1,13 @@
 import React from "react";
-import "./home.css";
+import "./popis.css";
 import Sidebar from "../sidebar/sideBar";
 
-export default function Home() {
+export default function Popis() {
     return(
         <>
-            <div className="hmp">
-                <Sidebar/> 
+            <Sidebar/>
+            <div>
+
             </div>
         </>
     )

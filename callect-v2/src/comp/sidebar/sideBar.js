@@ -6,6 +6,7 @@ import CM2 from "../../images/cargmd.png";
 import FCB from "../../images/fcb.png";
 import INSTA from "../../images/insta.png";
 import SNAP from "../../images/snap.png";
+import { Link } from "react-router-dom";
 
 function Sidebar() {
 
@@ -13,9 +14,9 @@ function Sidebar() {
         <>
         <div className="header">
                 <img id="logo-home" alt="" src={LP}></img>
-                <p className="dom">domov</p>
-                <p className="kon">kontakt</p>
-                <p className="pop">popis</p>
+                <Link to="/"><p className="dom">domov</p></Link>
+                <Link to="/kontakt"><p className="kon">kontakt</p></Link>
+                <Link to="/popis"><p className="pop">popis</p></Link>
                 <button className="button-log">Login/Register</button>
             <input type="checkbox" className="sidebarmenu" id="sidebarmenu"/>
             <label htmlFor="sidebarmenu" className="sidebaricontoggle">
@@ -25,8 +26,8 @@ function Sidebar() {
             </label>
             <div id="sidebarmenu">
                 <p className="typh">HRY</p>
-                <img id="cardb" alt="" src={CM}></img>
-                <img id="cardb2" alt="" src={CM2}></img>
+                <Link to="/karty"><img id="cardb" alt="" src={CM}></img></Link>
+                <Link to="/klasika"><img id="cardb2" alt="" src={CM2}></img></Link>
             </div>
         </div>
             <div id="center" className="main center">
