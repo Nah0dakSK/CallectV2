@@ -3,9 +3,9 @@ import "./sideBar.css";
 import LP from "../../images/CallectLogo.png";
 import CM from "../../images/cardgm.png";
 import CM2 from "../../images/cargmd.png";
-import FCB from "../../images/fcb.png";
+/* import FCB from "../../images/fcb.png";
 import INSTA from "../../images/insta.png";
-import SNAP from "../../images/snap.png";
+import SNAP from "../../images/snap.png"; */
 import { Link } from "react-router-dom";
 
 function Sidebar() {
@@ -33,13 +33,14 @@ function Sidebar() {
             <div id="center" className="main center">
                 <div className="mainInner"></div>
             </div>
-        <div className="botm">
-            <img id="fcb" alt="" src={FCB}></img>
-            <img id="insta" alt="" src={INSTA}></img>
-            <img id="snap" alt="" src={SNAP}></img>
-            <p className="name">Nah0dakSK</p>
-        </div>
         </>
     );
 }
 export default Sidebar;
+
+/*  <div className="botm">
+        <img id="fcb" alt="" src={FCB}></img>
+        <img id="insta" alt="" src={INSTA}></img>
+        <img id="snap" alt="" src={SNAP}></img>
+        <p className="name">Nah0dakSK</p>
+    </div>            */

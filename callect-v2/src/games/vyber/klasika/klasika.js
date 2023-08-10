@@ -5,7 +5,7 @@ import Sidebar from "../../../comp/sidebar/sideBar";
 export default function Klasika() {
     return(
         <>
-            <div>
+            <div className="klsk">
                 <Sidebar/>
             </div>
         </>

@@ -5,7 +5,7 @@ import Sidebar from "../../../comp/sidebar/sideBar";
 export default function Karty() {
     return(
         <>
-            <div>
+            <div className="krty">
                 <Sidebar/>
             </div>
         </>

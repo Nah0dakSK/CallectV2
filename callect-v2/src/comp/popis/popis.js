@@ -5,9 +5,8 @@ import Sidebar from "../sidebar/sideBar";
 export default function Popis() {
     return(
         <>
-            <Sidebar/>
-            <div>
-
+            <div className="pps">
+                <Sidebar/>
             </div>
         </>
     )
