@@ -5,7 +5,8 @@ import CM from "../../images/cardgm.png";
 import CM2 from "../../images/cargmd.png";
 /* import FCB from "../../images/fcb.png";
 import INSTA from "../../images/insta.png";
-import SNAP from "../../images/snap.png"; */
+import TWEET from "../../images/twitter.png"; */
+import BRIT from "../../images/british-flag.png";
 import { Link } from "react-router-dom";
 
 function Sidebar() {
@@ -18,6 +19,7 @@ function Sidebar() {
                 <Link to="/kontakt"><p className="kon">kontakt</p></Link>
                 <Link to="/popis"><p className="pop">popis</p></Link>
                 <button className="button-log">Login/Register</button>
+                <img id="brit" alt="" src={BRIT}></img>
             <input type="checkbox" className="sidebarmenu" id="sidebarmenu"/>
             <label htmlFor="sidebarmenu" className="sidebaricontoggle">
                 <div className="spinner diagonal part-1"></div>
@@ -41,6 +43,6 @@ export default Sidebar;
 /*  <div className="botm">
         <img id="fcb" alt="" src={FCB}></img>
         <img id="insta" alt="" src={INSTA}></img>
-        <img id="snap" alt="" src={SNAP}></img>
-        <p className="name">Nah0dakSK</p>
+        <img id="snap" alt="" src={TWEET}></img>
+        <p className="name">NahOdakSK</p>
     </div>            */

@@ -42,11 +42,18 @@ a {
     height: 80px;
     width: 100px;
 }
-#snap {
+#twitter {
     border-radius: 25px;
     margin-left: 75px;
     height: 80px;
     width: 100px;
+}
+#brit {
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-left: 75px;
+    height: 30px;
+    width: 50px;
 }
 .typh {
     text-align: center;

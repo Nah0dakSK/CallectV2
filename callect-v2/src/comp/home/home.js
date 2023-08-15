@@ -3,21 +3,22 @@ import "./home.css";
 import Sidebar from "../sidebar/sideBar";
 import FCB from "../../images/fcb.png";
 import INSTA from "../../images/insta.png";
-import SNAP from "../../images/snap.png";
+import TWEET from "../../images/twitter.png";
+import { Link } from "react-router-dom";
 
 export default function Home() {
     return(
         <>
             <div className="hmp">
                 <Sidebar/>
-                <h1 className="txtdom">Herný web pre každého <li className="txtdm"><strong>CALLECT</strong> 
+                <h1 className="txtdom">Herný web pre každého <li className="txtdm">CALLECT 
                 je web, ktorý je určený na oddych a relaxáciu pri bežných počítačových hrách.</li></h1>
-                <button className="button-dm">viac tu</button>
+                <Link to="/popis"><button className="button-dm">viac tu</button></Link>
                 <div className="botm-d">
-                    <img id="fcb" alt="" src={FCB}></img>
-                    <img id="insta" alt="" src={INSTA}></img>
-                    <img id="snap" alt="" src={SNAP}></img>
-                    <p className="name">Nah0dakSK</p>
+                    <a href="https://www.facebook.com/Nah0dakSK"><img id="fcb" alt="" src={FCB}></img></a>
+                    <a href="https://instagram.com/nah0daksk?igshid=MzNINGNkZWQ4Mg=="><img id="insta" alt="" src={INSTA}></img></a>
+                    <a href="https://twitter.com/nah0dak?t=r3GnEl8I479rVfDZDOW0gQ&s=09"><img id="twitter" alt="" src={TWEET}></img></a>
+                    <p className="name">NahOdakSK</p>
                 </div> 
             </div> 
         </>

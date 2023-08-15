@@ -11,9 +11,9 @@
 }
 .txtdm {
     list-style: none;
-    font-size: 27px;
+    font-size: 26px;
     font-family: serif;
-    color: white;
+    color: rgb(221, 203, 203);
 }
 .button-dm {
   align-items: center;
