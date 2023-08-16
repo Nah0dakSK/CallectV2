@@ -1,0 +1,57 @@
+.ppsbj {
+    background-image: url("../../../images/bjbkd.jpg");
+}
+.abt {
+    background-clip: text;
+    background-image: linear-gradient(to right, #09f1b8, #00a2ff, #ff00d2, #fed90f);
+    color: var(--color-background);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+    letter-spacing: var(--letter-spacing);
+    padding: calc(--stroke-width / 2);
+    -webkit-text-stroke-color: transparent;
+    -webkit-text-stroke-width: var(--stroke-width);
+    text-align: center;
+}
+.abt-2 {
+    background-clip: text;
+    background-image: linear-gradient(to right, #09f1b8, #00a2ff, #ff00d2, #fed90f);
+    color: var(--color-background);
+    font-size: 45px;
+    font-weight: var(--font-weight);
+    letter-spacing: var(--letter-spacing);
+    padding: calc(--stroke-width / 2);
+    -webkit-text-stroke-color: transparent;
+    -webkit-text-stroke-width: var(--stroke-width);
+    margin-left: 15px;
+}
+.bjtxt {
+    font-size: 40px;
+    color: white;
+    font-family: serif;
+    display: flex;
+    background-color: rgb(12, 34, 34);
+}
+.bj-np {
+    background-color: rgb(130, 228, 228);
+    border-radius: 25px;
+    margin-right: 660px;
+    margin-left: 650px;
+}
+.bj-pnp {
+    background-color: rgb(130, 228, 228);
+    border-radius: 25px;
+    margin-right: 1560px;
+    margin-left: 30px;
+}
+.botm-5 {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    height: 85px;
+    margin-top: 140px;
+    box-shadow: none;
+    background: rgb(5,5,7);
+    background: linear-gradient(90deg, rgba(5,5,7,1) 0%, rgba(14,14,17,1) 40%, rgba(14,14,23,1) 50%, rgba(14,14,17,1) 60%, rgba(5,5,7,1) 100%);
+}

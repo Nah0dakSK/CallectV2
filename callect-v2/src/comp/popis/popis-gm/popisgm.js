@@ -1,11 +1,11 @@
 import React from "react";
-import "./popisslt.css";
+import "./popisgm.css";
 import Sidebar from "../../sidebar/sideBar";
 
-export default function Popisslt() {
+export default function Popisgm() {
     return(
         <>
-            <div className="ppsslt">
+            <div className="ppsgm">
                 <Sidebar/>
             </div>
         </>

@@ -25,9 +25,9 @@ export default function Kontakt() {
                     <p className="nametxt-2">0904970325</p>                                 
             </div>
             <div className="botm-2">
-                    <img id="fcb" alt="" src={FCB}></img>
-                    <img id="insta" alt="" src={INSTA}></img>
-                    <img id="twitter" alt="" src={TWEET}></img>
+                    <a href="https://www.facebook.com/Nah0dakSK"><img id="fcb" alt="" src={FCB}></img></a>
+                    <a href="https://instagram.com/nah0daksk?igshid=MzNINGNkZWQ4Mg=="><img id="insta" alt="" src={INSTA}></img></a>
+                    <a href="https://twitter.com/nah0dak?t=r3GnEl8I479rVfDZDOW0gQ&s=09"><img id="twitter" alt="" src={TWEET}></img></a>
                     <p className="name">NahOdakSK</p>
             </div>
             </div>
