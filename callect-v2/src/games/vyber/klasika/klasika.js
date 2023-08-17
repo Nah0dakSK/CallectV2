@@ -6,6 +6,7 @@ import GMK from "../../../images/2048.png";
 import FCB from "../../../images/fcb.png";
 import INSTA from "../../../images/insta.png";
 import TWEET from "../../../images/twitter.png";
+import { Link } from "react-router-dom";
 
 export default function Klasika() {
     return(
@@ -16,7 +17,7 @@ export default function Klasika() {
                     <h1 className="krt-np">KLASICKÉ HRY</h1>
                 </div>
                 <img id="psk-ik" alt="" src={PSK}></img>
-                <img id="gm-ik" alt="" src={GMK}></img>
+                <Link to="/gm2048"><img id="gm-ik" alt="" src={GMK}></img></Link>
                 <div className="botm-3">
                     <a href="https://www.facebook.com/Nah0dakSK"><img id="fcb" alt="" src={FCB}></img></a>
                     <a href="https://instagram.com/nah0daksk?igshid=MzNINGNkZWQ4Mg=="><img id="insta" alt="" src={INSTA}></img></a>

@@ -1,0 +1,9 @@
+.ppsgm {
+    background-image: url("../../../images/2048bkd.png");
+}
+.gm-np {
+    background-color: rgb(130, 228, 228);
+    border-radius: 25px;
+    margin-right: 700px;
+    margin-left: 700px;
+}

@@ -13,7 +13,7 @@ export default function Popisbj() {
                 <div className="bj-np">
                    <h1 className="abt">BLACKJACK</h1> 
                 </div>
-                <div className="bj-pnp">
+                <div className="pk-pnp">
                    <h1 className="abt-2">Cieľ hry</h1> 
                 </div>
                 <h1 className="bjtxt">Aj keď veľa hráčov môže hrať v jednom kole blackjacku, je to v podstate hra pre dvoch hráčov. V blackjacku hráči nehrajú proti sebe; a nespolupracujú. Jedinou konkurenciou je predajca.</h1>
