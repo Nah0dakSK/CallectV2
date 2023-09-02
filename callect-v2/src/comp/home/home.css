@@ -13,6 +13,7 @@
     list-style: none;
     font-size: 26px;
     font-family: serif;
+    text-shadow: 0 0 5px #000;
     color: rgb(221, 203, 203);
 }
 .button-dm {

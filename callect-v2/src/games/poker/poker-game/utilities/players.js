@@ -8,7 +8,7 @@ import { dealMissingCommunityCards, showDown, generateDeckOfCards, shuffle, deal
 const generateTable = async () => {
 	const users = [{
 		id: uuid(),
-		name: 'Nah0dakSK',
+		name: 'TY',
 		avatarURL: '/assets/boy.svg',
 		cards: [],
 		showDownHand: {

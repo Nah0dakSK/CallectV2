@@ -12,7 +12,10 @@ import DropTarget from "./components/DropTarget";
 import Header from "./components/Header";
 
 // Styles.
-import "../../../../mainmenu/games/solitaire/solitaire-game/styles/Game.css";
+import "../solitaire-game/styles/Game.css";
+import FCB from "../../../images/fcb.png";
+import INSTA from "../../../images/insta.png";
+import TWEET from "../../../images/twitter.png";
 
 // Functions.
 import ShuffleAndDeal from "./functions/ShuffleAndDeal";
@@ -25,7 +28,7 @@ import useInterval from "./useInterval";
 // Assets.
 import { ReactComponent as Restart } from './assets/icons/restart.svg';
 import { ReactComponent as Exclamation } from './assets/icons/exclamation.svg';
-import Sidebar from "../../../sidebar/sideBar";
+import Sidebar from "../../../comp/sidebar/sideBar";
 
 const Game = () => {
   // *** State. ***
@@ -905,6 +908,12 @@ const Game = () => {
             </div>
           </div>
         </DndProvider>
+        </div>
+        <div className="botm-6">
+                    <a href="https://www.facebook.com/Nah0dakSK"><img id="fcb" alt="" src={FCB}></img></a>
+                    <a href="https://instagram.com/nah0daksk?igshid=MzNINGNkZWQ4Mg=="><img id="insta" alt="" src={INSTA}></img></a>
+                    <a href="https://twitter.com/nah0dak?t=r3GnEl8I479rVfDZDOW0gQ&s=09"><img id="twitter" alt="" src={TWEET}></img></a>
+                    <p className="name">NahOdakSK</p>
         </div>
         </div>
     </>

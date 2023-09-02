@@ -8,18 +8,19 @@ import INSTA from "../../images/insta.png";
 import TWEET from "../../images/twitter.png"; */
 import BRIT from "../../images/british-flag.png";
 import { Link } from "react-router-dom";
+import { useAuth0 } from "@auth0/auth0-react";
 
 function Sidebar() {
-
+    const { loginWithRedirect } = useAuth0();
     return(
         <>
         <div className="header">
-                <img id="logo-home" alt="" src={LP}></img>
-                <Link to="/"><p className="dom">domov</p></Link>
+                <Link to="/domov"><img id="logo-home" alt="" src={LP}></img></Link>
+                <Link to="/domov"><p className="dom">domov</p></Link>
                 <Link to="/kontakt"><p className="kon">kontakt</p></Link>
                 <Link to="/popis"><p className="pop">popis</p></Link>
-                <button className="button-log">Login/Register</button>
-                <img id="brit" alt="" src={BRIT}></img>
+                <button className="button-log" onClick={() => loginWithRedirect()}>Login/Register</button>
+                <Link to="/domov-eng"><img id="brit" alt="" src={BRIT}></img></Link>
             <input type="checkbox" className="sidebarmenu" id="sidebarmenu"/>
             <label htmlFor="sidebarmenu" className="sidebaricontoggle">
                 <div className="spinner diagonal part-1"></div>

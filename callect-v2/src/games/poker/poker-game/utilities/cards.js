@@ -47,7 +47,7 @@ const shuffle = (deck) => {
 	let filledSlots = [];
 	for (let i = 0; i < totalNumCards; i++) {
 		if (i === 51) {
-			// Fill last undefined slot when only 1 card left to shuffle
+			// ked len 1 karta sa zamieša
 			const lastSlot = shuffledDeck.findIndex((el) => typeof el == 'undefined');
 				shuffledDeck[lastSlot] = deck[i];
 				filledSlots.push(lastSlot);

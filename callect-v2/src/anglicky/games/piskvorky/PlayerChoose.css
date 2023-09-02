@@ -1,0 +1,15 @@
+.psk-bkd {
+    background-image: url("../../../images/pisbkd.jpg");
+}
+#p1 {
+    border-radius: 25px;
+    width: 350px;
+    height: 300px;
+    margin-left: 300px;
+}
+#p2 {
+    border-radius: 25px;
+    width: 350px;
+    height: 300px;
+    margin-left: 500px;
+}

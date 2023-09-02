@@ -1,0 +1,69 @@
+.knkt {
+    background-image: url("../../../images/cnctbknd.jpg");
+}
+.botm-2 {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  height: 85px;
+  box-shadow: none;
+  background: rgb(5,5,7);
+  background: linear-gradient(90deg, rgba(5,5,7,1) 0%, rgba(14,14,17,1) 40%, rgba(14,14,23,1) 50%, rgba(14,14,17,1) 60%, rgba(5,5,7,1) 100%);
+}
+.bx {
+    margin-left: 520px;
+    padding-left: 15px;
+    background-image: -webkit-linear-gradient(left, rgb(60, 247, 247), azure 50%, transparent 60%, transparent 100%);
+    border-radius: 25px;
+}
+.nametxt {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: serif;
+    display: flex;
+    color: red;
+    margin-left: 150px;
+    transform: translateY(-110px);
+}
+.nametxt-1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: serif;
+    display: flex;
+    color: red;
+    margin-left: 150px;
+    transform: translateY(-190px);
+}
+.nametxt-2 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: serif;
+    display: flex;
+    color: red;
+    margin-left: 150px;
+    transform: translateY(-255px);
+}
+#knt {
+    border-radius: 25px;
+    height: 110px;
+    width: 110px;
+    margin-left: 720px;
+}
+#nm {
+    border-radius: 25px;
+    height: 90px;
+    width: 90px;
+}
+#nm-1 {
+    border-radius: 25px;
+    height: 90px;
+    width: 90px;
+    transform: translateY(-70px);
+}
+#nm-2 {
+    border-radius: 25px;
+    height: 90px;
+    width: 90px;
+    transform: translateY(-140px);
+}

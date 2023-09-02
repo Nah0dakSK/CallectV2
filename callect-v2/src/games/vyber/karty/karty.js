@@ -7,6 +7,7 @@ import TWEET from "../../../images/twitter.png";
 import BJ from "../../../images/blackjack.png";
 import PK from "../../../images/poker.png";
 import SLT from "../../../images/solitaire.png";
+import { Link } from "react-router-dom";
 
 export default function Karty() {
     return(
@@ -16,9 +17,9 @@ export default function Karty() {
                 <div className="krt-bdc">
                     <h1 className="krt-np">KARTOVÉ HRY</h1>
                 </div>
-                <img id="bj-ik" alt="" src={BJ}></img>
-                <img id="pk-ik" alt="" src={PK}></img>
-                <img id="slt-ik" alt="" src={SLT}></img>
+                <Link to="/blackjack"><img id="bj-ik" alt="" src={BJ}></img></Link>
+                <Link to="/poker"><img id="pk-ik" alt="" src={PK}></img></Link>
+                <Link to="/solitaire"><img id="slt-ik" alt="" src={SLT}></img></Link>
                 <div className="botm-3">
                     <a href="https://www.facebook.com/Nah0dakSK"><img id="fcb" alt="" src={FCB}></img></a>
                     <a href="https://instagram.com/nah0daksk?igshid=MzNINGNkZWQ4Mg=="><img id="insta" alt="" src={INSTA}></img></a>

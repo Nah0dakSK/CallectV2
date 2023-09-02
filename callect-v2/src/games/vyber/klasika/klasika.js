@@ -16,7 +16,7 @@ export default function Klasika() {
                 <div className="krt-bdc-2">
                     <h1 className="krt-np">KLASICKÉ HRY</h1>
                 </div>
-                <img id="psk-ik" alt="" src={PSK}></img>
+                <Link to="/piskvorky-vyber_hraca"><img id="psk-ik" alt="" src={PSK}></img></Link>
                 <Link to="/gm2048"><img id="gm-ik" alt="" src={GMK}></img></Link>
                 <div className="botm-3">
                     <a href="https://www.facebook.com/Nah0dakSK"><img id="fcb" alt="" src={FCB}></img></a>

@@ -1,0 +1,24 @@
+.score{
+    display: flexbox;
+    border: 2px solid black;
+    background-color: white;
+    margin-left: 780px;
+    margin-right: 800px;
+    padding-left: 10px;
+}
+
+.score h4{
+    margin:0;
+    margin-bottom: .1em;
+}
+
+.playerX{
+    color:rgb(255, 123, 0);
+    font-size: 30px;
+}
+
+.playerO{
+    color:green;
+    font-size: 30px;
+}
+

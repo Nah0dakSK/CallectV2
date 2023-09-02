@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import styles from './styles/Controls.module.css';
+import './styles/Controls.css';
 
 type ControlsProps = {
   balance: number,
@@ -13,7 +13,7 @@ type ControlsProps = {
 
 const Controls: React.FC<ControlsProps> = ({ balance, gameState, buttonState, betEvent, hitEvent, standEvent, resetEvent }) => {
   const [amount, setAmount] = useState(10);
-  const [inputStyle, setInputStyle] = useState(styles.input);
+  const [inputStyle, setInputStyle] = useState("input");
 
   useEffect(() => {
     validation();
@@ -21,14 +21,14 @@ const Controls: React.FC<ControlsProps> = ({ balance, gameState, buttonState, be
 
   const validation = () => {
     if (amount > balance) {
-      setInputStyle(styles.inputError);
+      setInputStyle("inputError");
       return false;
     }
     if (amount < 0.01) {
-      setInputStyle(styles.inputError);
+      setInputStyle("inputError");
       return false;
     }
-    setInputStyle(styles.input);
+    setInputStyle("input");
     return true;
   }
 
@@ -45,21 +45,21 @@ const Controls: React.FC<ControlsProps> = ({ balance, gameState, buttonState, be
   const getControls = () => {
     if (gameState === 0) {
       return (
-        <div className={styles.controlsContainer}>
-          <div className={styles.betContainer}>
-            <h4>Amount:</h4>
+        <div className="controlsContainer">
+          <div className="betContainer">
+            <h4>Počet:</h4>
             <input autoFocus type='number' value={amount} onChange={amountChange} className={inputStyle} />
           </div>
-          <button onClick={() => onBetClick()} className={styles.button}>Bet</button>
+          <button onClick={() => onBetClick()} className="button">Staviť</button>
         </div>
       );
     }
     else {
       return (
-        <div className={styles.controlsContainer}>
-          <button onClick={() => hitEvent()} disabled={buttonState.hitDisabled} className={styles.button}>Hit</button>
-          <button onClick={() => standEvent()} disabled={buttonState.standDisabled} className={styles.button}>Stand</button>
-          <button onClick={() => resetEvent()} disabled={buttonState.resetDisabled} className={styles.button}>Reset</button>
+        <div className="controlsContainer">
+          <button onClick={() => hitEvent()} disabled={buttonState.hitDisabled} className="button">Pridať</button>
+          <button onClick={() => standEvent()} disabled={buttonState.standDisabled} className="button">Ostať</button>
+          <button onClick={() => resetEvent()} disabled={buttonState.resetDisabled} className="button">Reset</button>
         </div>
       );
     }

@@ -1,13 +1,11 @@
-// import "@babel/polyfill";
-
-// import 'core-js/es6/map';
-// import 'core-js/es6/set';
-
 import 'raf/polyfill';
 
 import React, { Component } from 'react';
-import './App.css';
 import './Poker.css';
+
+import FCB from "../../../images/fcb.png";
+import INSTA from "../../../images/insta.png";
+import TWEET from "../../../images/twitter.png";
 
 import Spinner from './Spinner.js';
 import WinScreen from './WinScreen.js';
@@ -48,24 +46,24 @@ import {
 } from './utilities/ui.js';
 
 import { cloneDeep } from 'lodash';
-import Sidebar from '../../../sidebar/sideBar';
+import Sidebar from '../../../comp/sidebar/sideBar';
 
 export default class App extends Component {
   state = {
     loading: true,
-    winnerFound: null,
-    players: null,
-    numPlayersActive: null,
-    numPlayersFolded: null,
-    numPlayersAllIn: null,
-    activePlayerIndex: null,
-    dealerIndex: null,
-    blindIndex: null,
-    deck: null,
+    winnerFound: 0,
+    players: 0,
+    numPlayersActive: 0,
+    numPlayersFolded: 0,
+    numPlayersAllIn: 0,
+    activePlayerIndex: 0,
+    dealerIndex: 0,
+    blindIndex: 0,
+    deck: 0,
     communityCards: [],
-    pot: null,
-    highBet: null,
-    betInputValue: null,
+    pot: 0,
+    highBet: 0,
+    betInputValue: 0,
     sidePots: [],
     minBet: 20,
     phase: 'loading',
@@ -431,6 +429,12 @@ imageLoaderRequest.send();
             this.renderGame()
           }
         </div>
+      </div>
+      <div className="botm-6">
+                    <a href="https://www.facebook.com/Nah0dakSK"><img id="fcb" alt="" src={FCB}></img></a>
+                    <a href="https://instagram.com/nah0daksk?igshid=MzNINGNkZWQ4Mg=="><img id="insta" alt="" src={INSTA}></img></a>
+                    <a href="https://twitter.com/nah0dak?t=r3GnEl8I479rVfDZDOW0gQ&s=09"><img id="twitter" alt="" src={TWEET}></img></a>
+                    <p className="name">NahOdakSK</p>
       </div>
       </div>
       </>
